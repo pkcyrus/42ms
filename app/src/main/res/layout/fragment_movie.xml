@@ -1,0 +1,32 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/flush_activity_horizontal_margin"
+    android:paddingRight="@dimen/flush_activity_horizontal_margin"
+    android:paddingTop="@dimen/flush_activity_vertical_margin"
+    tools:context="com.pskehagias.fortytwomilliseconds.MovieActivityFragment"
+    tools:showIn="@layout/activity_movie"
+    style="@style/AppTheme"
+    >
+
+    <LinearLayout
+        style="@style/MovieTheme"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/backdrop_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitStart"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_notifications_black_24dp"
+            android:contentDescription="@string/cd_backdrop_generic"/>
+
+        <include layout="@layout/content_movie_details"/>
+    </LinearLayout>
+</ScrollView>

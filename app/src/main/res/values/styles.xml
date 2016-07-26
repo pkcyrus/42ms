@@ -1,0 +1,116 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MovieTheme">
+        <item name="android:background">@color/colorPrimaryBackground</item>
+    </style>
+
+    <style name="MovieTheme.Button">
+        <item name="android:background">@color/colorAccentLight</item>
+        <item name="android:layout_margin">@dimen/margin_small</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MovieTheme.TitleBar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorTextBlackPrimary</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/padding_small</item>
+        <item name="android:paddingBottom">@dimen/padding_small</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="MovieTheme.TextBlock">
+        <item name="android:textColor">@color/colorTextBlackPrimary</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_small</item>
+        <item name="android:layout_marginBottom">@dimen/margin_small</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="MovieTheme.TextList">
+        <item name="android:textColor">@color/colorTextBlackPrimary</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_micro</item>
+        <item name="android:layout_marginBottom">@dimen/margin_micro</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="MovieTheme.TextAbout">
+        <item name="android:textColor">@color/colorTextBlackPrimary</item>
+        <item name="android:textSize">@dimen/text_size_subheading</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/margin_small</item>
+        <item name="android:layout_marginBottom">@dimen/margin_small</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="MovieTheme.Spinner">
+        <item name="android:textColor">@color/colorTextBlackPrimary</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/padding_medium</item>
+    </style>
+
+    <style name="MovieTheme.NavBar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorTextBlackPrimary</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MovieTheme.NavBar.Button">
+    <item name="android:background">@color/colorPrimary</item>
+    <item name="android:textColor">@color/colorAccentLight</item>
+    <item name="android:textSize">@dimen/text_size_title</item>
+    <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="MovieTheme.NavBar.Text">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorTextBlackPrimary</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingTop">@dimen/padding_small</item>
+        <item name="android:paddingBottom">@dimen/padding_small</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="MovieTheme.NavBar.Text.Weighted">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+</resources>

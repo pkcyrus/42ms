@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/MovieTheme">
+
+    <TextView
+        style="@style/MovieTheme.TitleBar"
+        android:id="@+id/title_detail"
+        android:text="Title"/>
+
+    <TextView
+        style="@style/MovieTheme.TextBlock"
+        android:id="@+id/synopsis_detail"
+        android:text="Synopsis"
+        />
+
+    <TextView
+        style="@style/MovieTheme.TextList"
+        android:id="@+id/release_detail"
+        android:text="Release Date: YYYY-MM-DD"/>
+
+    <TextView
+        style="@style/MovieTheme.TextList"
+        android:id="@+id/rating_detail"
+        android:text="Rating: 0.0/10 with 000 Votes"/>
+
+    <LinearLayout
+        style="@style/MovieTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/MovieTheme.TextList"
+            android:id="@+id/review_count_detail"
+            android:text="Reviews: 256"/>
+        <Button
+            style="@style/MovieTheme.Button"
+            android:id="@+id/read_reviews_detail"
+            android:text="@string/button_read"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/movie_details_video_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <Spinner
+            android:id="@+id/movie_details_video_spinner"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"/>
+
+        <Button
+            style="@style/MovieTheme.Button"
+            android:id="@+id/movie_details_launch_video"
+            android:text="@string/button_watch"/>
+
+    </LinearLayout>
+
+</LinearLayout>

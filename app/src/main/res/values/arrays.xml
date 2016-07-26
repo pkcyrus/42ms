@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="setting_sort_by">
+        <item>Most Popular</item>
+        <item>Most Popular Favorites</item>
+        <item>Highest Rated</item>
+        <item>Highest Rated Favorites</item>
+        <!-- etc etc etc -->
+    </string-array>
+    <string-array name="setting_sort_by_values">
+        <item>popularity.desc</item>
+        <item>fav.popularity.desc</item>
+        <item>vote_average.desc</item>
+        <item>fav.vote_average.desc</item>
+    </string-array>
+</resources>

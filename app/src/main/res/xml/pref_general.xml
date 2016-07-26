@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+
+    <ListPreference
+        android:defaultValue="@string/setting_sort_by_default"
+        android:entries="@array/setting_sort_by"
+        android:entryValues="@array/setting_sort_by_values"
+        android:key="@string/setting_sort_by_key"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/setting_sort_by_label" />
+    <EditTextPreference
+        android:defaultValue="@string/setting_vote_thresh_default"
+        android:inputType="number"
+        android:key="@string/setting_vote_thresh_key"
+        android:title="@string/setting_vote_thresh_label"/>
+
+</PreferenceScreen>
